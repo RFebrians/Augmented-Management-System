@@ -11,7 +11,7 @@ const PruchaseModal = ({ item, hideDialog, visible }) => {
 				<Modal.CloseButton />
 				<Modal.Header bg='coolGray.800'>
 					<Heading italic fontSize='xl' color='coolGray.200'>
-						Specific Products
+						Produk Spesifik
 					</Heading>
 				</Modal.Header>
 				<Modal.Body bg='coolGray.700'>

@@ -42,7 +42,7 @@ const CategorRoundChart = ({ datak = [], title, type }) => {
 				</Heading>
 				<Contain stylek={{ minHeight: 500 }}>
 					<Heading size='sm' italic color='blueGray.200'>
-						Time from: {moment(start).format('MMM Do YY')} to{' '}
+						Mulai dari: {moment(start).format('MMM Do YY')} hingga{' '}
 						{moment(end).format('MMM Do YY')}
 					</Heading>
 					{datak.length > 0 ? (
@@ -50,7 +50,7 @@ const CategorRoundChart = ({ datak = [], title, type }) => {
 					) : (
 						<VStack style={styles.vstack} justifyContent='center'>
 							<Text fontSize={30} color='coolGray.200'>
-								No Data
+								Tidak ada Data
 							</Text>
 						</VStack>
 					)}
@@ -62,7 +62,7 @@ const CategorRoundChart = ({ datak = [], title, type }) => {
 						onPress={() => {
 							setShowModal(true);
 						}}>
-						Change Range
+						Ubah Rentang
 					</Button>
 					<RangeComp
 						start={start}

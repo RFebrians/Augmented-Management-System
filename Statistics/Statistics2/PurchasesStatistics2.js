@@ -10,7 +10,7 @@ const PurchasesStatistics2 = () => {
 	return (
 		<PeriodAllLine
 			datak={datak}
-			title='Incomes according to category during a specific timeline'
+			title='Pemasukan berdasarkan Kategori Spesifik Timeline'
 			type='Purchase'
 		/>
 	);

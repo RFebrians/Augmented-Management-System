@@ -17,9 +17,9 @@ const TopPurch = () => {
 				activeTintColor: 'white',
 				tabBarActiveTintColor: 'white'
 			})}>
-			<Tab.Screen name='All' component={AllPurchaseNavigator} />
-			<Tab.Screen name='Products ' component={ProductPurchaseNavigator} />
-			<Tab.Screen name='Income' component={IncomePurchaseNavigator} />
+			<Tab.Screen name='Semua' component={AllPurchaseNavigator} />
+			<Tab.Screen name='Product ' component={ProductPurchaseNavigator} />
+			<Tab.Screen name='Pemasukan' component={IncomePurchaseNavigator} />
 		</Tab.Navigator>
 	);
 };

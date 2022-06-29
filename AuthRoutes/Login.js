@@ -88,7 +88,7 @@ const Login = ({ navigation }) => {
 						mt={10}
 					/>
 					{error.email && (
-						<Text style={styles.errText}>Please set username in</Text>
+						<Text style={styles.errText}>Silahkan masukkan username</Text>
 					)}
 					<Input
 						style={styles.input}
@@ -106,21 +106,21 @@ const Login = ({ navigation }) => {
 						my={4}
 					/>
 					{error.password && (
-						<Text style={styles.errText}>Please set password in</Text>
+						<Text style={styles.errText}>Silahkan masukkan password</Text>
 					)}
 					{logError ===
 						'[auth/invalid-email] The email address is badly formatted.' &&
 						!error.password &&
 						!error.email &&
 						!error.confirmPassword && (
-							<Text style={styles.errText}>Invalid Email</Text>
+							<Text style={styles.errText}>Email Salah</Text>
 						)}
 					{logError ===
 						'[auth/user-not-found] There is no user record corresponding to this identifier. The user may have been deleted.' &&
 						!error.password &&
 						!error.email &&
 						!error.confirmPassword && (
-							<Text style={styles.errText}>No such account exists</Text>
+							<Text style={styles.errText}>Tidak Ditemukan Akun</Text>
 						)}
 					<Stack direction='row' justifyContent='center'>
 						<Button
@@ -136,11 +136,11 @@ const Login = ({ navigation }) => {
 					</Stack>
 					<Stack alignItems='center' justifyContent='center' direction='row'>
 						<Text mr={3} fontSize='sm' color='coolGray.300'>
-							No account yet?
+							Belum punya akun ?
 						</Text>
 						<TouchableOpacity onPress={() => navigation.push('SignUp')}>
 							<Text fontSize='md' color='primary.500'>
-								Sign In
+								Daftar
 							</Text>
 						</TouchableOpacity>
 					</Stack>

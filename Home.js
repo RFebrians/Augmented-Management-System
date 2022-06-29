@@ -23,13 +23,13 @@ const Home = ({ navigation }) => {
 		<View style={styles.container}>
 			<View style={styles.inputsContainer}>
 				<Text fontSize='md' color='coolGray.200'>
-					Hello {user} , Nice to Meet you !
+					Halo {user} 
 				</Text>
 				<Text fontSize={25} mb={5} color='coolGray.200'>
-					Welcome to Augmented Management System
+				Selamat Datang di Augmented Management System
 				</Text>
 				<Text fontSize={10} mb={5} color='coolGray.200'>
-					From here you can manage or visualize to track your data
+				Dari sini Anda dapat mengelola atau memvisualisasikan untuk melacak data Anda
 				</Text>
 				<Button variant='outline' onPress={handleLogout}>
 					Sign Out

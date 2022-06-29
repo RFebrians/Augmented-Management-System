@@ -63,7 +63,7 @@ const Statistics3 = ({ datak = [], title, type }) => {
 					<VStack mb={5}>
 						<VStack mb={3}>
 							<Heading size={'sm'} italic color='blueGray.200'>
-								First period:
+								Rentang Awal
 							</Heading>
 							<Text fontSize={12} color={'coolGray.200'}>
 								{' '}
@@ -73,7 +73,7 @@ const Statistics3 = ({ datak = [], title, type }) => {
 						</VStack>
 						<VStack>
 							<Heading size={'sm'} italic color='blueGray.200'>
-								Second period:
+								Rentang Akhir
 							</Heading>
 							<Text fontSize={12} color={'coolGray.200'}>
 								{moment(startRange2).format('MMM Do YY')} to{' '}
@@ -103,7 +103,7 @@ const Statistics3 = ({ datak = [], title, type }) => {
 							</View>
 						))
 					) : (
-						<Text color='red.500'>Change Time Period or Add More Data </Text>
+						<Text color='red.500'>Ubah rentang raktu lebih luas atau tambah data </Text>
 					)}
 					<Button
 						style={styles.button}
@@ -113,7 +113,7 @@ const Statistics3 = ({ datak = [], title, type }) => {
 						onPress={() => {
 							setShowModal(true);
 						}}>
-						Change Range
+						Ubah Rentang
 					</Button>
 					<RangeComp2 />
 				</Contain>

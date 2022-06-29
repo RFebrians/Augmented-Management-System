@@ -138,7 +138,7 @@ const Incomes = ({ route, navigation }) => {
 					backgroundColor={useColorModeValue('gray.800')}
 					style={styles.container}>
 					<Heading size='lg' italic color='blueGray.200' mt={8} mb={5}>
-						Write your Incomes{' '}
+						Tulis Pemasukan{' '}
 					</Heading>
 					<Contain
 						stylek={{
@@ -146,7 +146,7 @@ const Incomes = ({ route, navigation }) => {
 							justifyContent: 'flex-start',
 							position: 'relative'
 						}}>
-						<Divider>Write the amount:</Divider>
+						<Divider>Tulis Jumlah:</Divider>
 						<Input
 							type='number'
 							color='blueGray.300'

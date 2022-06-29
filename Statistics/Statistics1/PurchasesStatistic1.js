@@ -9,7 +9,7 @@ const PurchasesStatistic1 = () => {
 	return (
 		<CategorRoundChart
 			datak={datak}
-			title='Purchases according to category during a specific timeline'
+			title='Pengeluaran berdasarkan Kategori Spesifik Timeline'
 			type='Purchase'
 		/>
 	);

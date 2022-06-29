@@ -35,34 +35,34 @@ export default function App() {
 				component={Home}
 			/>
 			<Drawer.Screen
-				options={{ title: 'Expense Tracker' }}
+				options={{ title: 'Analisa Pengeluaran' }}
 				name='ExpenseWrite'
 				component={ExpenseWrite}
 				initialParams={item}
 			/>
 			<Drawer.Screen
-				options={{ title: 'Expense Tracker OCR' }}
+				options={{ title: 'Analisa Pengeluaran OCR' }}
 				name='Expense Write OCR'
 				component={OCR}
 			/>
 			<Drawer.Screen
-				options={{ title: 'Incomes' }}
+				options={{ title: 'Pemasukan' }}
 				name='Incomes'
 				component={Incomes}
 				initialParams={item}
 			/>
 			<Drawer.Screen
-				options={{ title: 'Product Purchases' }}
+				options={{ title: 'Profit Produk' }}
 				name='Product Purchases'
 				component={ProductPurchaseNavigator}
 			/>
 			<Drawer.Screen
-				options={{ title: 'Income Purchases' }}
+				options={{ title: 'Profit Pemasukan' }}
 				name='Income Purchases'
 				component={IncomePurchasesNavigator}
 			/>
 			<Drawer.Screen
-				options={{ title: 'All Purchases' }}
+				options={{ title: 'Semua Profit' }}
 				name='All Purchases'
 				component={AllPurchases}
 			/>

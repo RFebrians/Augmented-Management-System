@@ -66,7 +66,7 @@ const PeriodAllLine = ({ datak = [], title, type }) => {
 	if (!warto || !data1) {
 		return (
 			<View style={styles.container}>
-				<Text color='coolGray.300'>Loading</Text>
+				<Text color='coolGray.300'>Memuat</Text>
 			</View>
 		);
 	} else {
@@ -99,13 +99,13 @@ const PeriodAllLine = ({ datak = [], title, type }) => {
 						<Contain>
 							{data1.length === 0 || warto.length === 0 ? (
 								<Text fontSize='lg' color='red.500'>
-									Change Time Period Or Category
+									Ubah berdasarkan Waktu atau Kategori
 								</Text>
 							) : (
 								<LineComp data1={data1} warto={warto} />
 							)}
 							<Divider></Divider>
-							<Divider>Chose Interwal:</Divider>
+							<Divider>Pilih Jangka Waktu:</Divider>
 							<HStack width={'100%'} justifyContent={'space-around'}>
 								{[
 									{ day: 'Days', time: 86400000 },

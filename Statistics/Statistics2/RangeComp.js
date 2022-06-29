@@ -19,14 +19,14 @@ const RangeComp = ({ start, end, setDajs, showModal, setShowModal }) => {
 					<Modal.CloseButton />
 					<Modal.Header>
 						<Text italic fontWeight={'bold'} fontSize={23}>
-							Chose Ranges
+							Periode Rentang
 						</Text>
 					</Modal.Header>
 					<Modal.Body>
 						<FormControl>
 							<FormControl.Label>
 								<Text italic fontSize={'lg'}>
-									First Range
+									Rentang Awal
 								</Text>
 							</FormControl.Label>
 							<DatePicker
@@ -38,7 +38,7 @@ const RangeComp = ({ start, end, setDajs, showModal, setShowModal }) => {
 						<FormControl mt='3'>
 							<FormControl.Label>
 								<Text italic fontSize={'lg'}>
-									Last Range
+									Rentang Akhir
 								</Text>
 							</FormControl.Label>
 							<DatePicker mode='date' date={two} onDateChange={setTwo} />

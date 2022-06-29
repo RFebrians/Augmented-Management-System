@@ -33,14 +33,14 @@ const RangeComp2 = () => {
 					<Modal.CloseButton />
 					<Modal.Header>
 						<Text italic fontWeight={'bold'} fontSize={23}>
-							Chose first date Ranges to comparise
+							Ubah rentang data untuk perbandingan
 						</Text>
 					</Modal.Header>
 					<Modal.Body>
 						<FormControl>
 							<FormControl.Label>
 								<Text italic fontSize={'lg'}>
-									First Range
+									Rentang Awal
 								</Text>
 							</FormControl.Label>
 							<DatePicker
@@ -52,7 +52,7 @@ const RangeComp2 = () => {
 						<FormControl mt='3'>
 							<FormControl.Label>
 								<Text italic fontSize={'lg'}>
-									Last Range
+									Rentang Akhir
 								</Text>
 							</FormControl.Label>
 							<DatePicker
@@ -67,7 +67,7 @@ const RangeComp2 = () => {
 							onPress={() => {
 								setShowModal2(true);
 							}}>
-							To Next Range
+							Rentang Selanjutnya
 						</Button>
 					</Modal.Footer>
 				</Modal.Content>
@@ -80,14 +80,14 @@ const RangeComp2 = () => {
 					<Modal.CloseButton />
 					<Modal.Header>
 						<Text italic fontWeight={'bold'} fontSize={23}>
-							Chose Ranges
+							Ubah Rentang
 						</Text>
 					</Modal.Header>
 					<Modal.Body>
 						<FormControl>
 							<FormControl.Label>
 								<Text italic fontSize={'lg'}>
-									First Range
+									Rentang Awal
 								</Text>
 							</FormControl.Label>
 							<DatePicker
@@ -99,7 +99,7 @@ const RangeComp2 = () => {
 						<FormControl mt='3'>
 							<FormControl.Label>
 								<Text italic fontSize={'lg'}>
-									Last Range
+									Rentang Akhir
 								</Text>
 							</FormControl.Label>
 							<DatePicker mode='date' date={four} onDateChange={setFour} />

@@ -48,7 +48,7 @@ export default function App() {
 					<>
 						<Stack.Screen
 							options={{ headerShown: false }}
-							name='BudgetKing'
+							name='AugmentedApp'
 							component={TabNav}
 						/>
 					</>

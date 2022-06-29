@@ -9,7 +9,7 @@ const IncomesStatistics3 = () => {
 	return (
 		<Statistics3
 			datak={datak}
-			title='Percentage Rate Of Incomes Estimation During Time Perspective'
+			title='Estimasi Persentase berdasarkan Statistik'
 			type='Income'
 		/>
 	);

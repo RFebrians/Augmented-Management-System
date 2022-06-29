@@ -15,7 +15,7 @@ const Modalek = () => {
 				<Modal.CloseButton />
 				<Modal.Header bg='coolGray.800'>
 					<Heading italic fontSize='xl' color='coolGray.200'>
-						Chose Category
+						Pilih Kategori
 					</Heading>
 				</Modal.Header>
 				<Modal.Body bg='coolGray.700'>

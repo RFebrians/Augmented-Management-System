@@ -161,7 +161,7 @@ const SignUp = ({ navigation }) => {
 						!error.confirmPassword &&
 						!passError && (
 							<Text style={styles.errText}>
-								Password should have at least 6 characters
+								Password setidaknya 6 karakter
 							</Text>
 						)}
 					<Stack direction='row' justifyContent='center'>
@@ -179,7 +179,7 @@ const SignUp = ({ navigation }) => {
 
 					<Stack alignItems='center' justifyContent='center' direction='row'>
 						<Text mr={3} fontSize='sm' color='coolGray.300'>
-							Having an account?
+							Sudah punya akun ?
 						</Text>
 						<TouchableOpacity onPress={() => navigation.push('Login')}>
 							<Text fontSize='md' color='primary.500'>

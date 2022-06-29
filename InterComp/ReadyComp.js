@@ -20,18 +20,18 @@ export const Contain = ({ children, stylek }) => {
 };
 
 export const cate = [
-	{ name: 'Food and drinks', icon: 'food' },
-	{ name: 'Motorization', icon: 'motorbike' },
-	{ name: 'Health and medicines', icon: 'hospital' },
-	{ name: 'Entertainment', icon: 'party-popper' },
-	{ name: 'Other', icon: 'comment-question-outline' },
-	{ name: 'Jewelery and clothes', icon: 'tshirt-crew-outline' },
-	{ name: 'Fuel', icon: 'tshirt-crew-outline' }
+	{ name: 'Makanan', icon: 'food' },
+	{ name: 'Transportasi', icon: 'motorbike' },
+	{ name: 'Kesehatan', icon: 'hospital' },
+	{ name: 'Hiburan', icon: 'party-popper' },
+	{ name: 'Lainnya', icon: 'comment-question-outline' },
+	{ name: 'Pakaian', icon: 'tshirt-crew-outline' },
+	{ name: 'Umum', icon: 'tshirt-crew-outline' }
 ];
 
 export const cate2 = [
-	{ name: 'Credit Cart', icon: 'credit-card' },
-	{ name: 'Cash', icon: 'bitcoin' }
+	{ name: 'Kartu Kredit', icon: 'credit-card' },
+	{ name: 'Cash', icon: 'money' }
 ];
 
 const styles = StyleSheet.create({

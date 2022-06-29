@@ -17,7 +17,7 @@ function App() {
 			await ImagePicker.requestMediaLibraryPermissionsAsync();
 
 		if (permissionResult.granted === false) {
-			alert("You've refused to allow this appp to access your photos!");
+			alert("Ubah pengaturan izin akses");
 			return;
 		}
 		const options = { allowsEditing: true };
@@ -43,7 +43,7 @@ function App() {
 		const permissionResult = await ImagePicker.requestCameraPermissionsAsync();
 
 		if (permissionResult.granted === false) {
-			alert("You've refused to allow this appp to access your camera!");
+			alert("Ubah pengaturan izin akses");
 			return;
 		}
 		const options = { allowsEditing: true };
