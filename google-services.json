@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "551104926569",
+    "firebase_url": "https://forwardproject-2bedf-default-rtdb.firebaseio.com",
+    "project_id": "forwardproject-2bedf",
+    "storage_bucket": "forwardproject-2bedf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551104926569:android:dafef1fd2e5d10f27223f8",
+        "android_client_info": {
+          "package_name": "com.rfebrians.automatedmanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551104926569-efb74kqal1no9jg11ge2aibm2vffq06j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsdgYra6VGFYHwlmIC-cQTOm7PdMN5X3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551104926569-efb74kqal1no9jg11ge2aibm2vffq06j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
